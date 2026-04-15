@@ -10,7 +10,7 @@ $S_{sentimental} = \sigma(x)[Z(C_r) + \log(A_w/A_{adj}) + F_m + N_{sold}/\bar{H}
 Where:
 - $\sigma(x)$: risk-adjusted sigmoid function
 - $C_r$: geopolitical/conflict factor
-- $A_w / A_adj$: normalized rating ratio across sources
+- $A_w / A_{adj}$: normalized rating ratio across sources
 - $F_m$: mean sentiment score (NLP-based)
 - $N_{sold}$: insider selling activity
 - $\bar{H}$: estimated holdings baseline
