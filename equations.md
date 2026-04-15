@@ -12,7 +12,7 @@ Where:
 - $C_r$: geopolitical/conflict factor
 - $A_w / A_adj$: normalized rating ratio across sources
 - $F_m$: mean sentiment score (NLP-based)
-- $N_sold$: insider selling activity
+- $N_{sold}$: insider selling activity
 - $\bar{H}$: estimated holdings baseline
 - Z: Z score
 
