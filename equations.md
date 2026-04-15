@@ -6,8 +6,8 @@ S_sentimental represents aggregated market sentiment derived from external sourc
 
 Initial concept:
 $$
-S_{sentimental} = σ(x) \left[
-Z(C_r) + \log\left(\frac{A_w}{A_{adj}}\right) + F_m + \frac{N_{sold}}{\bar{H}}
+S_{sentimental} = \sigma(x) \left[
+Z(C_r) + \log\left(\frac{A_w}{A_{adj}}\right) + F_m + \left\frac{N_{sold}}{\bar{H}}
 \right]
 $$
 
