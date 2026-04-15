@@ -24,42 +24,45 @@ Goal: Capture the *shape* of price movement rather than just magnitude.
 
 ### Feature 1: Path Complexity
 
-structure_score = path_length / displacement
+$structure_score = path_{length} / displacement$
 
 Where:
-- path_length = Σ |returns|
+- $path_length$ = Σ |returns|
 - displacement = |Σ returns|
 
 Interpretation:
+$$
 - ≈ 1 → smooth trend
 - >> 1 → chaotic movement
+$$
 
 ---
 
 ### Feature 2: Directional Instability
 
-sign_changes = number of sign flips in returns
+$sign_{changes}$ = number of sign flips in returns
 
 ---
 
 ### Combined Structural Signal
 
+$$
 S_mathematical = w_a * structure_score + w_b * sign_changes
-
+$$
 ---
 
 ## 3. Final Model
 
-S_final = w1 * S_sentimental + w2 * S_mathematical
+$S_final = w1 * S_{sentimental} + w2 * S_{mathematical}$
 
 ---
 
 ## 4. Regime Hypothesis
 
-If S_mathematical is high (chaotic):
+If $S_mathematical$ is high (chaotic):
 → sentiment dominates
 
-If S_mathematical is low (trending):
+If $S_mathematical$ is low (trending):
 → momentum/structure dominates
 
 ---
