@@ -27,8 +27,8 @@ Goal: Capture the *shape* of price movement rather than just magnitude.
 $structure_{score} = path_{length} / displacement$
 
 Where:
-- $path_{length}$ = NA
-- displacement = NA
+- $path_{length}$ = WIP
+- displacement = WIP
 
 Interpretation:
 - ≈ 1 → smooth trend
