@@ -24,7 +24,7 @@ Goal: Capture the *shape* of price movement rather than just magnitude.
 
 ### Feature 1: Path Complexity
 
-$structure_score = path_{length} / displacement$
+$structure_{score} = path_{length} / displacement$
 
 Where:
 - $path_length$ = Σ |returns|
