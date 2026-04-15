@@ -49,10 +49,10 @@ $S_{final} = w1 * S_{sentimental} + w2 * S_{mathematical}$
 
 ## 4. Regime Hypothesis
 
-If $S_mathematical$ is high (chaotic):
+If $S_{mathematical}$ is high (chaotic):
 → sentiment dominates
 
-If $S_mathematical$ is low (trending):
+If $S_{mathematical}$ is low (trending):
 → momentum/structure dominates
 
 ---
