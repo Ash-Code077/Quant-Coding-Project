@@ -6,7 +6,7 @@ S_sentimental represents aggregated market sentiment derived from external sourc
 
 Initial concept:
 
-S_sentimental = σ(x) * [ Z(C_r) + log(A_w / A_adj) + F_m + (N_sold / \bar{H}) ]
+S_sentimental = σ(x) * [ Z(C_r) + log(A_w / A_adj) + F_m + (N_sold / $\bar{H}$) ]
 
 Where:
 - σ(x): risk-adjusted sigmoid function
@@ -14,7 +14,7 @@ Where:
 - A_w / A_adj: normalized rating ratio across sources
 - F_m: mean sentiment score (NLP-based)
 - N_sold: insider selling activity
-- \bar{H}: estimated holdings baseline
+- $\bar{H}$: estimated holdings baseline
 - Z: Z score
 
 ---
