@@ -44,9 +44,7 @@ $sign_{changes}$ = number of sign flips in returns
 
 ### Combined Structural Signal
 
-$$
-S_{mathematical} = w_a * structure_{score} + w_b * sign_{changes}
-$$
+$S_{mathematical} = w_a * structure_{score} + w_b * sign_{changes}$
 ---
 
 ## 3. Final Model
