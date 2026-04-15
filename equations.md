@@ -5,9 +5,9 @@
 S_sentimental represents aggregated market sentiment derived from external sources.
 
 Initial concept:
-
-S_sentimental = σ(x) * [ Z(C_r) + log(A_w / A_adj) + F_m + (N_sold / $\bar{H}$) ]
-
+$$
+S_{sentimental} = σ(x) * \left[ Z(C_r) + \log\left(\frac{A_w}{A_adj}\right) + F_m + \frac{{N_{sold}}{$\bar{H}$}\right]
+$$
 Where:
 - σ(x): risk-adjusted sigmoid function
 - C_r: geopolitical/conflict factor
