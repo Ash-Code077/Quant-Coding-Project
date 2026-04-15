@@ -8,7 +8,7 @@ Negative price movements are more strongly influenced by sentiment than by struc
 
 ## Problem
 
-Initial formulation using derivatives (dP/dS) is difficult to implement with discrete data.
+Initial formulation using derivatives ($dPrice/dSentiment$) is difficult to implement with discrete data.
 
 ---
 
