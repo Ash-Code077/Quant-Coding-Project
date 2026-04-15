@@ -27,14 +27,12 @@ Goal: Capture the *shape* of price movement rather than just magnitude.
 $structure_{score} = path_{length} / displacement$
 
 Where:
-- $path_length$ = Σ |returns|
+- $path_{length}$ = Σ |returns|
 - displacement = |Σ returns|
 
 Interpretation:
-$$
 - ≈ 1 → smooth trend
-- >> 1 → chaotic movement
-$$
+- \>\> 1 → chaotic movement
 
 ---
 
@@ -47,13 +45,13 @@ $sign_{changes}$ = number of sign flips in returns
 ### Combined Structural Signal
 
 $$
-S_mathematical = w_a * structure_score + w_b * sign_changes
+S_{mathematical} = w_a * structure_{score} + w_b * sign_{changes}
 $$
 ---
 
 ## 3. Final Model
 
-$S_final = w1 * S_{sentimental} + w2 * S_{mathematical}$
+$S_{final} = w1 * S_{sentimental} + w2 * S_{mathematical}$
 
 ---
 
