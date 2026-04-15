@@ -26,11 +26,11 @@ This project attempts to model both and dynamically weight them based on market 
 
 Final signal:
 
-S_final = w1 * S_sentimental + w2 * S_mathematical
+$S_{final} = w1 * S_{sentimental} + w2 * S_{mathematical}$
 
 Where:
-- S_sentimental: sentiment-based signal
-- S_mathematical: structural volatility signal
+- $S_{sentimental}$: sentiment-based signal
+- $S_{mathematical}$: structural volatility signal
 - w1, w2: adaptive weights based on market regime
 
 ---
