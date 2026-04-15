@@ -27,18 +27,12 @@ Goal: Capture the *shape* of price movement rather than just magnitude.
 $structure_{score} = path_{length} / displacement$
 
 Where:
-- $path_{length}$ = Σ |returns|
-- displacement = |Σ returns|
+- $path_{length}$ = NA
+- displacement = NA
 
 Interpretation:
 - ≈ 1 → smooth trend
 - \>\> 1 → chaotic movement
-
----
-
-### Feature 2: Directional Instability
-
-$sign_{changes}$ = number of sign flips in returns
 
 ---
 
